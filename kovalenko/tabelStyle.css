@@ -1,0 +1,129 @@
+table#lihtne{
+    width:60%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    padding:10px; /*vahe tekstit ääriseni*/
+    /*border-collapse: collapse;*/
+}
+/*tabeli pseudoelimentide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: pink;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){/*1.rida 2.lahter*/
+    background-color: saddlebrown;
+}
+#lihtne tr:nth-child(1) td:nth-child(3){/*1.rida 3.lahter*/
+    background-color: pink;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){/*2.rida 1.lahter*/
+    background-color: saddlebrown;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){/*2.rida 2.lahter*/
+    background-color: pink;
+}
+#lihtne tr:nth-child(2) td:nth-child(3){/*2.rida 3.lahter*/
+    background-color: saddlebrown;
+}
+table#keeruline1 td{
+    /*html failis id=keeruline1*/
+    width:10%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    padding:2px; /*vahe tekstit ääriseni*/
+    /*border-collapse: collapse;*/
+    background-color: pink;
+}
+table#keeruline2 td{
+    width:10%;
+    border: 1px solid black;
+    text-align: center; /*teksti joondamine keskele*/
+    padding:2px; /*vahe tekstit ääriseni*/
+    /*border-collapse: collapse;*/
+    background-color: pink;
+}
+table#keeruline3 td{
+    width: 50px;
+    height: 46px;
+    border: 1px pink solid;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    background-color: saddlebrown;
+}
+table#iseseisev{
+    width: 250px;
+    height: 100px;
+    border: 1px solid saddlebrown;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: sandybrown;
+}
+#iseseisev tr:nth-child(1) td:nth-child(1){
+    background-color: plum;
+}
+#iseseisev tr:nth-child(1) td:nth-child(2){
+    background-color: rosybrown;
+}
+#iseseisev tr:nth-child(1) td:nth-child(3){
+    background-color: lightpink;
+}
+#iseseisev tr:nth-child(1) td:nth-child(4){
+    background-color: peachpuff;
+}
+#iseseisev tr:nth-child(2) td:nth-child(1){
+    background-color: pink;
+}
+#iseseisev tr:nth-child(2) td:nth-child(3){
+    background-color: pink;
+}
+#iseseisev tr:nth-child(2) td:nth-child(2){
+    background-color: palevioletred;
+}
+#iseseisev tr:nth-child(3) td:nth-child(1){
+    background-color: saddlebrown;
+}
+#iseseisev tr:nth-child(3) td:nth-child(2){
+    background-color: burlywood;
+}
+#iseseisev tr:nth-child(4) td:nth-child(1){
+    background-color: tan;
+}
+table#iseseisev2 {
+    width: 250px;
+    height: 200px;
+    border: 5px solid saddlebrown ;
+    padding: 10px;
+    background-color: pink;
+    border-collapse: collapse;
+}
+#iseseisev2 tr:nth-child(1) td:nth-child(1){
+    background-color: pink;
+}
+#iseseisev2 tr:nth-child(2) td:nth-child(1){
+    background-color: peru;
+}
+#iseseisev2 tr:nth-child(2) td:nth-child(2){
+    background-color: plum;
+}
+#iseseisev2 tr:nth-child(2) td:nth-child(3){
+    background-color: peru;
+}
+#iseseisev2 tr:nth-child(3) td:nth-child(1){
+    background-color: saddlebrown;
+}
+#iseseisev2 tr:nth-child(3) td:nth-child(2){
+    background-color: palevioletred;
+}
+#iseseisev2 tr:nth-child(3) td:nth-child(3){
+    background-color: saddlebrown;
+}
+#iseseisev2 tr:nth-child(4) td:nth-child(1){
+    background-color: sandybrown;
+}
+#iseseisev2 tr:nth-child(5) td:nth-child(1){
+    background-color: plum;
+}
+#iseseisev2 tr:nth-child(6) td:nth-child(1){
+    background-color: pink;
+}
