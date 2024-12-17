@@ -55,3 +55,6 @@ section h2{
     background-color: rosybrown;
     color: saddlebrown;
 }
+li a:active {
+    background-color: rosybrown; /* Цвет при нажатии */
+}
