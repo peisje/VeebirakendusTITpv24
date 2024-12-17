@@ -1,0 +1,27 @@
+table#lihtne, td{
+    /*html failis id=lihtne*/
+    width: 55%;
+    border: 1px solid orange;
+ text-aligin:center; /*testi joondamine keskele*/
+    padding: 10px; /*vahe tekstist ääriseni*/
+    /*border-collapse: collapse; */
+}
+table#lihtne, td{
+    /*html failis id=lihtne*/
+    width: 45%;
+    border: 2px solid orange;
+    text-aligin:center; /*testi joondamine keskele*/
+    padding: 10px; /*vahe tekstist ääriseni*/
+    /*border-collapse: collapse; */
+    background-color: lavenderblush;
+}
+
+table#lihtne2, table#lihtne2 td{
+    /*html failis id=lihtne2*/
+    width: 40%;
+    border: 1px solid orange;
+    text-aligin:center; /*testi joondamine keskele*/
+    padding: 10px; /*vahe tekstist ääriseni*/
+    /*border-collapse: collapse; */
+    background-color: red;
+}
