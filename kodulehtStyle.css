@@ -9,7 +9,7 @@ header h1{
     font-variant: small-caps;
 }
 ul{
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -26,24 +26,27 @@ li a{
     color: pink;
     padding: 10px;
 }
-li a:hover{ /*lingid fookuses*/
-    background-color: rosybrown;
+li a:hover{  /*lingid fookuses*/
+    background-color: saddlebrown;
 }
 footer{
     text-align: center;
+    text-align: center;
     margin: auto;
-    background-color: saddlebrown;
+    background-color: rosybrown;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
 }
-section{/*min 5 omadust*/
+section{
     text-align: center;
     margin: auto;
     background-color: pink;
     position: fixed;
     border-radius: 10px;
+
+
 }
 section h2{
     margin: auto;
@@ -51,5 +54,4 @@ section h2{
     text-align: center;
     background-color: rosybrown;
     color: saddlebrown;
-
 }
