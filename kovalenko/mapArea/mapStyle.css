@@ -1,0 +1,42 @@
+div{
+    width:20%;
+    height:10%;
+    border: solid 5pt saddlebrown;
+    position: absolute;
+    left: 11cm;
+    top: 2cm;
+    padding: 2%;
+    border-radius: 50px;
+    flow-from: left;
+    background: pink;
+    letter-spacing: 0.01cm;
+    font-variant: small-caps;
+    color: saddlebrown;
+    font-size: x-large;
+}
+footer{
+    text-align: center;
+    background-color: pink;
+    position: fixed;
+    bottom: 10px;
+    left: 1px;
+    width: 100%;
+}
+header{
+    text-align: center;
+    background-color: pink;
+    width: 100%;
+    color: saddlebrown;
+    font-size: small;
+    font-family: Verdana, Serif, sans-serif;
+    letter-spacing: 0.01cm;
+    border-radius: 10px;
+}
+img{
+    border-radius: 40%;
+    border: solid 5pt saddlebrown;
+    filter: contrast(100%);
+    filter: grayscale(10%);
+    filter: hue-rotate(100000deg);
+    filter: drop-shadow(16px 16px 20px red) invert(69%);
+}

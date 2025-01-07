@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Map area kasutamine</title>
+    <link rel="stylesheet" href="mapStyle.css">
 </head>
 <body>
-<h1>Map / Area kasutamine </h1>
+<header>
+    <h1>Map / Area kasutamine </h1>
+</header>
 <img src="home.png" alt="ilus maja" usemap="#majake">
 <map name="majake">
     <!--ring coord= x, y -keskpunkt, R-raadius-->
@@ -14,15 +17,17 @@
     <area shape="rect" coords="206,206,248,279" href="door.html" alt="door">
     <!--kolmnurk (6 coords)-->
     <area shape="poly" coords="63,161,177,33,302,159" href="krisa.html" alt="krisa">
-    <!--kvadrat-->
+    <area shape="rect" coords="113,188,150,225" href="aken2.html" alt="aken2">
     <area shape="rect" coords="88,140,275,282" href="building.html" alt="building">
-    <!--ristküülik-->
     <area shape="rect" coords="221,39,243,94" href="truba.html" alt="truba">
-    <!--kass-->
-    <area shape="poly" coords="145,300,164,304,166,336" href="cat.html" alt="cat">
+    <area shape="rect" coords="142,95,177,355" href="cat.html" alt="cat">
+    <area shape="rect" coords="0,286,375,376" href="grass.html" alt="grass">
 </map>
 <div>
-    Siia tuleb kirjeldus, kui sa klikid akna, seina, või krisa peale
+    see on kass
 </div>
+<footer>
+    <strong>Darja Kovalenko &copy; 2025</strong>
+</footer>
 </body>
 </html>
