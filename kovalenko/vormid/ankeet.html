@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Muusika ankeet</title>
+    <link rel="stylesheet" href="ankeetStyle.css">
 </head>
 <body>
 <h1>Muusika ankeet</h1>
@@ -54,19 +55,18 @@
     <label for="Classical">Klassikaline muusika</label>
     <br>
     <!--värvi valik-->
-    <label for="varv">Mis värvi on rokkmusika?</label>
+    <strong> <label for="varv">Mis värvi on rokkmusika?</label></strong>
     <input  type="color" id="varv">
     <br><br>
     <label for="tund">
-        Mitu tundi päevas sa kuulad muusikat?
+        <strong>Mis tundi päevas sa kuulad muusikat?</strong>
     </label>
     <select name="tund" id="tund">
         <option value="15 min">15 min</option>
         <option value="1 tund">1 tund</option>
         <option value="2 tundi">2 tundi</option>
         <option value="pool päeva">pool päeva</option>
-    </select>
-    0 tundi<input type="range" min="0" max="24">24 tundi
+    </select> 0 tundi<input type="range" min="0" max="24">24 tundi
     <br><br>
     <label>
         <strong>Kas sa kuulad raadiot?</strong>
@@ -100,6 +100,11 @@
     <br>
     <input  type="date" id="kontsert">
     <label for="kontsert">sinu vimati muusika kontserd</label>
+<br>
+    <input type="button" value="Salvesta">
+           <input type="reset" value="Puhasta">
+<br>
+
 </body>
 </html>
 
