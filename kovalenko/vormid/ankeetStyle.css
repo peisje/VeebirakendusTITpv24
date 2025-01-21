@@ -22,7 +22,7 @@ input[type=radio]{
     width: 5%;
 }
 select{
-    width: 20%;
+    width: 40%;
     padding: 5px;
     margin: 5px;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ select{
     cursor: pointer;
 }
 input[type=reset], input[type=button]{
-    width: 20%;
+    width: 50%;
     padding: 5px;
     margin: 5px;
     box-sizing: border-box;
@@ -46,5 +46,37 @@ input[type=reset], input[type=button]{
     font-weight: bold;
     font-size: 13px;
     cursor: pointer;
-
+}
+table{
+    width: 50%;
+    padding: 10px; /*vähe tekstist äärseni*/
+    border-collapse: collapse;
+    border: 1px saddlebrown;
+    margin: 5px; /*vahe lehes tabelini*/
+}
+td{
+    padding: 10px;
+    text-align: left;
+}
+input[type=checkbox] + label{
+    display: inline-block;
+    width: 60px;
+    height: 21px;
+    padding-left: 40px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 25px;
+    cursor: pointer;
+    border: 1px saddlebrown;
+}
+input[type=radio] + label{
+    display: inline-block;
+    width: 32px;
+    height: 21px;
+    padding-left: 40px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 25px;
+    cursor: pointer;
+    border: 1px saddlebrown;
 }
