@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormist lugemine</title>
+    <script src="vormScript.js"></script>
+    <link rel="stylesheet" href="vormistStyle.css">
+</head>
+<body>
+<h1>Vormist lugemine JS abil</h1>
+<form action="">
+  <label for="nimi">Sisesta nimi</label>
+  <input type="text" name="nimi" id="nimi">
+
+    <br>
+    <label for="pnimi">Sisesta perekonnanimi</label>
+    <input type="text" name="pnimi" id="pnimi">
+    <br>
+    <label for="varv">Vali vastuse värv</label>
+    <input type="color" id="varv">
+    <br><br>
+    <!--radio nupp-->
+    <strong>Vali sugu:</strong>
+    <br>
+    <input type="radio" name="sugu" id="mees">
+    <label for="mees">mees</label>
+    <img src="" alt="" id="pilt">
+    <br>
+    <input type="radio" name="sugu" id="naine">
+    <label for="naine">naine</label>
+    <img src="" alt="" id="pilt">
+    <br><br>
+    <label for="synnipaev">Vali oma sünnipäev</label>
+    <input type="date" name="synnipaev" id="synnipaev">
+    <br><br>
+    <label for="num">Vali oma vanus</label>
+    <input type="number" name="num" id="num">
+    <br>
+    <label for="post">kirjuta sinu e-post</label>
+    <input type="email" name="post" id="post">
+    <br>
+    <label for="telef">kirjuta siia oma telefoninumber</label>
+    <input type="tel" name="telef" id="telef">
+    <br>
+    <label for="silka">kirjuta oma isikukood</label>
+    <input type="url" name="silka" id="silka" >
+    <!--iseseisvalt -
+   1. html -failis lisada küsimused, et saab vastata
+    input type=number
+    input type=email
+    input type=tel
+    input type=url
+    2. js-failis lisada-->
+
+    <!--ripp loend-->
+  <br>
+  <label for="linn">Kus sa elad?</label>
+    <select name="linn" id="linn" onchange="selectValik()">
+      <option value="">Vali linn...</option>
+      <option value="Tallinn">Tallinn</option>
+      <option value="Tartu">Tartu</option>
+      <option value="Narva">Narva</option>
+      <option value="Paide">Paide</option>
+      <option value="Pärnu">Pärnu</option>
+    </select>
+       <div id="vastus2"></div>
+  <br>
+  <strong>Vali oma hobby</strong>
+  <br>
+    <input type="checkbox" id="sport" value="sport" >
+  <label for="sport">Sport</label>
+  <br>
+  <input type="checkbox" id="joonistamine" value="joonistamine">
+  <label for="joonistamine">joonistamine</label>
+  <br>
+  <input type="checkbox" id="muusika" value="muusika">
+  <label for="muusika">muusika</label>
+  <br>
+  <input type="checkbox" id="tantsimine" value="tantsimine">
+  <label for="tantsimine">tantsimine</label>
+  <br>
+  <input type="checkbox" id="ujumine" value="ujumine">
+  <label for="ujumine">ujumine</label>
+  <br>
+  <div id="vastus3"></div>
+  <input type="button" onclick="checkboxValik2()" value="hobby">
+
+
+       <div id="vastus"></div>
+    <br>
+    <input type="button" value="OK" onclick="lugemine2()">
+    <br>
+
+</form>
+
+</body>
+</html>
