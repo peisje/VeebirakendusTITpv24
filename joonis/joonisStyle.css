@@ -1,0 +1,21 @@
+ canvas{
+    border: solid 4px saddlebrown;
+    border-radius: 0px;
+    width: 95%;
+    background-color: pink;
+}
+ canvas#lipp{
+     border: solid 1px saddlebrown;
+     background-color: pink;
+     border-radius: 1px;
+     width: 90%;
+ }
+ canvas#lipp2{
+     border: solid 1px saddlebrown;
+     background-color: pink;
+     border-radius: 1px;
+     width: 40%;
+ }
+ canvas#pyhi{
+     border: solid 1px saddlebrown;
+ }
